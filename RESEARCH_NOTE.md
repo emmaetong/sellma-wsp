@@ -104,15 +104,15 @@ The hypothesis is rejected:
 **Limitations**
 - The model is very small (1 layer) and the grammar is simple and synthetic. Scaling the experiment to a larger model with more complex sentences and real Swedish sentences may significantly alter the results.
 - The sample sizing across the experiment was small, and future work would benefit from increasing the sample sizes for more generalisable results.
-- Both selected settings lie at the edge of their search range, and so improvements could be seen with a more extnesive setting selection.
+- Both selected settings lie at the edge of their search range, and so improvements could be seen with a more extensive setting selection.
 - Shared initialisation is rarely available when repairing a model, but was necessary for the design of this experiment.
 
 ## Recommendation
 
-1. Use traditional model fine-tuning to correct known faults when correct data exists. It was as accurate or more accurate on the hardest cases, cheaper, and caused no regression. Averaged weight edits are not inherently a lower risk alternative as the article suggests, although this experiment has proved its an interesting alternative avenue to explore.
-2. Evaluate every repair for regression and shortcuts, not accuracy alone. Choose settings under a stated regression limit. Including opposite gender counterfactuals in Swedish grammar tests is shown to be beneficial diagnositcally and for evaluation purposes.
+1. Use traditional model fine-tuning to correct known faults when correct data exists. It was as accurate or more accurate on the hardest cases, cheaper, and caused no regression. Averaged weight edits are not inherently a lower risk alternative as the article suggests, although this experiment has shown its an interesting alternative avenue to explore.
+2. Evaluate every repair for regression and shortcuts, not accuracy alone. Choose settings under a stated regression limit. Including opposite gender counterfactuals in Swedish grammar tests is shown to be beneficial diagnostically and for evaluation purposes.
 3. Next steps, with more time and computing power would be to test localised, agent designed edits, replicating the methodology in the original article, and running the same set of evaluations to gain a better insight closer aligned to the conclusions from the article.
 
-The repository includes a harness in which an LLM agent edits the weights under a forwardpass budget, following Experiment 8 in the article. It has only been run as a single demonstration with a small local model (`results/agent_demo_qwen3-4b-think/`) for my curiosity and engagement in the project, but the results are not recorded or evaluated here as they are not complete.
+The repository includes a harness in which an LLM agent edits the weights under a forward pass budget, following Experiment 8 in the article. It has only been run as a single demonstration with a small local model (`results/agent_demo_qwen3-4b-think/`) for my curiosity and engagement in the project, but the results are not recorded or evaluated here as they are not complete.
 
 Running it with a frontier model at budgets of 10, 25 and 50 passes, scored with the same measures, would be a better test of the article's claim.
