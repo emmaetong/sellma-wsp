@@ -2,6 +2,6 @@ Due to the time constraints of the project, I used an AI Coding Agent to support
 
 All AI generated code was reviewed, checked and tested to ensure it was appropriate for the experimentm, and redundant lines removed for efficiency.
 
-The base structure of the project was written by hand, and the decision making behind the experiments design, including sentence structures, comparison methods and frameworks e.g. PyTorch was my own decision. 
+The base structure of the project was written by hand, and the decision making behind the experiments design, including sentence structures, comparison methods and frameworks e.g. PyTorch was my own decision. AI coding tools were used to implement the idea based on my desired experimental design.
 
 All analysis, evaluation and interpretation, including the written components of the task were written by me.
