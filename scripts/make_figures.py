@@ -20,9 +20,9 @@ import pandas as pd  # noqa: E402
 RESULTS = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("results/comparators")
 OUT = RESULTS / "figures"
 
-# Light-mode tokens. The three method hues are validated as a set (all pairs, CVD and normal vision).
+
 SURFACE, INK, INK_2, GRID = "#fcfcfb", "#0b0b0b", "#52514e", "#e4e3df"
-METHODS = {  # fixed colour per method, in every figure
+METHODS = {  
     "unchanged": ("Unchanged", "#a3a29c"),
     "task_vector": ("Task vector", "#2a78d6"),
     "fine_tune": ("Fine-tuning", "#eb6834"),
@@ -135,7 +135,7 @@ def main() -> None:
     accuracy_by_split(summary)
     regression_by_method(summary)
     tradeoff(summary, sweep)
-    print(f"Figures written to {OUT}/")
+    print(f"Figures generated to {OUT}/")
 
 
 if __name__ == "__main__":
