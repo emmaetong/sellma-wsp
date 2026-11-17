@@ -1,0 +1,107 @@
+{
+  "experiment": {
+    "model": {
+      "batch_size": 32,
+      "learning_rate": 0.003,
+      "embedding_dim": 32,
+      "n_heads": 2,
+      "n_layers": 1,
+      "max_seq_len": 16
+    },
+    "transfer": {
+      "source_pairs": 10,
+      "target_seeds": 8,
+      "source_steps": 400,
+      "target_steps": 120,
+      "baseline_finetune_steps": 180,
+      "edit_alphas": [
+        -1.0,
+        -0.5,
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "fixed_alpha": 0.2,
+      "random_repeats": 12,
+      "seed": 20261116,
+      "base_init_seed": 314159
+    },
+    "extension": {
+      "alpha_grid": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "reg_budget": 0.1,
+      "finetune_lrs": [
+        0.001,
+        0.003
+      ],
+      "finetune_checkpoints": [
+        50,
+        100,
+        200,
+        400,
+        800
+      ]
+    }
+  },
+  "args": {
+    "output_dir": "results/agent_demo_qwen3-4b-think",
+    "targets": 1,
+    "target_mode": "disrupted",
+    "target_steps": 400,
+    "budgets": [
+      3,
+      10
+    ],
+    "python_runs": 10,
+    "max_turns": null,
+    "n_layers": null,
+    "n_heads": null,
+    "no_agent": false,
+    "quick": false,
+    "backend": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0.6,
+    "llm_seed": 0,
+    "num_ctx": 12288,
+    "max_tokens": 4096,
+    "think": true
+  },
+  "target_seeds": {
+    "disrupted": "900000 + 131*j",
+    "obstacle": "950000 + 131*j (correct), 960000 + 131*j (disrupted)"
+  },
+  "finetune_seed": "810000 + 131*j",
+  "sandbox": true,
+  "python": "3.13.18",
+  "torch": "2.15.0",
+  "llm": {
+    "backend": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0.6,
+    "seed": 0,
+    "max_tokens": 4096,
+    "num_ctx": 12288,
+    "think": true,
+    "timeout_s": 900,
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "ollama_version": "0.40.16"
+  }
+}

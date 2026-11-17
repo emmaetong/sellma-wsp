@@ -1,0 +1,46 @@
+{
+  "target": 0,
+  "budget": 10,
+  "turns": 12,
+  "python_used": 10,
+  "forward_used": 7,
+  "kernel_restarts": 0,
+  "window_trims": 0,
+  "ended_by": "python_budget",
+  "seconds": 1782.0,
+  "applied_edits": [
+    "blocks.layers.0.self_attn.in_proj_weight"
+  ],
+  "rejected_edits": [],
+  "claimed_edits": [
+    "blocks.layers.0.self_attn.in_proj_weight"
+  ],
+  "claims_match_applied": true,
+  "final_json": {
+    "edited_tensors": [
+      "blocks.layers.0.self_attn.in_proj_weight"
+    ],
+    "components": [
+      {
+        "layer": 0,
+        "part": "attention",
+        "head": null,
+        "role": "gender signal amplification"
+      }
+    ],
+    "expected_effect": "margin increase of 0.029 ± 0.007 (statistically significant)",
+    "confidence": 0.95
+  },
+  "simulation_flagged_runs": 0,
+  "metrics": {
+    "test_id_acc": 0.05263157894736842,
+    "test_id_margin": -3.9381729406222963,
+    "test_relative_acc": 0.13157894736842105,
+    "test_relative_margin": -3.4518984932648507,
+    "test_distractor_acc": 0.10526315789473684,
+    "test_distractor_margin": -3.612884094840602,
+    "cf_same_acc": 0.10526315789473684,
+    "cf_conflict_acc": 0.10526315789473684,
+    "prefix_nll_delta": 0.04316929767006328
+  }
+}

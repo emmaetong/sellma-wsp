@@ -1,0 +1,7 @@
+,test_id_acc,test_id_acc,test_id_acc,test_relative_acc,test_relative_acc,test_relative_acc,test_distractor_acc,test_distractor_acc,test_distractor_acc,cf_same_acc,cf_same_acc,cf_same_acc,cf_conflict_acc,cf_conflict_acc,cf_conflict_acc,test_id_margin,test_id_margin,test_id_margin,prefix_nll_delta,prefix_nll_delta,prefix_nll_delta,forward_passes,forward_passes,forward_passes,grad_steps,grad_steps,grad_steps,source_grad_steps,source_grad_steps,source_grad_steps
+,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count
+method,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+unchanged,0.053,0.0,3,0.211,0.182,3,0.175,0.132,3,0.085,0.028,3,0.181,0.124,3,-4.118,0.139,3,0.0,0.0,3,0.0,0.0,3,0.0,0.0,3,0.0,0.0,3
+task_vector,0.88,0.035,3,0.754,0.061,3,0.64,0.106,3,0.974,0.026,3,0.605,0.108,3,5.097,0.533,3,3.469,0.061,3,9.0,0.0,3,0.0,0.0,3,8000.0,0.0,3
+random_equal_norm,0.199,0.033,3,0.395,0.105,3,0.342,0.115,3,0.19,0.063,3,0.342,0.115,3,-3.235,0.461,3,1.984,0.426,3,0.0,0.0,3,0.0,0.0,3,0.0,0.0,3
+fine_tune,0.93,0.03,3,0.684,0.091,3,0.772,0.135,3,0.813,0.088,3,0.763,0.121,3,4.403,1.055,3,-0.033,0.008,3,3.0,0.0,3,400.0,0.0,3,0.0,0.0,3

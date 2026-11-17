@@ -1,0 +1,46 @@
+{
+  "target": 0,
+  "budget": 3,
+  "turns": 10,
+  "python_used": 8,
+  "forward_used": 3,
+  "kernel_restarts": 0,
+  "window_trims": 0,
+  "ended_by": "final_answer",
+  "seconds": 1419.6,
+  "applied_edits": [
+    "blocks.layers.0.norm1.weight"
+  ],
+  "rejected_edits": [],
+  "claimed_edits": [
+    "blocks.layers.0.norm1.weight"
+  ],
+  "claims_match_applied": true,
+  "final_json": {
+    "edited_tensors": [
+      "blocks.layers.0.norm1.weight"
+    ],
+    "components": [
+      {
+        "layer": 0,
+        "part": "norm",
+        "head": null,
+        "role": "gender signal amplification in residual stream"
+      }
+    ],
+    "expected_effect": "Slight improvement in adjective agreement margin (mean margin increase of ~0.005)",
+    "confidence": 0.5
+  },
+  "simulation_flagged_runs": 0,
+  "metrics": {
+    "test_id_acc": 0.05263157894736842,
+    "test_id_margin": -3.9573006922738596,
+    "test_relative_acc": 0.10526315789473684,
+    "test_relative_margin": -3.4842026233673096,
+    "test_distractor_acc": 0.07894736842105263,
+    "test_distractor_margin": -3.535595780924747,
+    "cf_same_acc": 0.05263157894736842,
+    "cf_conflict_acc": 0.07894736842105263,
+    "prefix_nll_delta": 0.0020672647576582825
+  }
+}

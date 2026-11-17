@@ -1,0 +1,1 @@
+{"edited_tensors": ["blocks.layers.0.self_attn.in_proj_weight"], "components": [{"layer": 0, "part": "attention", "head": null, "role": "gender signal amplification"}], "expected_effect": "margin increase of 0.029 ± 0.007 (statistically significant)", "confidence": 0.95}

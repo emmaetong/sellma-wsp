@@ -1,0 +1,31 @@
+[project]
+name = "sellma-wsp"
+version = "0.1.0"
+description = "SE.LLMA: can a weight-space edit repair Swedish gender agreement as well as fine-tuning?"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scikit-learn>=1.4",
+    "scipy>=1.11",
+    "torch>=2.4",
+]
+
+[project.scripts]
+sellma-agent = "sellma_wsp.agent.run:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+plots = [
+    "matplotlib>=3.8",
+]
+
+[build-system]
+requires = ["uv_build>=0.8,<0.14"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

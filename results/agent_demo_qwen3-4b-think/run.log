@@ -1,0 +1,20 @@
+target 0: dev accuracy 0.039
+Building source direction from 10 matched pairs ...
+Task-vector alpha (dev-selected): 2.0
+Fine-tuning steps (dev-selected): 400
+[agent] target 0 budget 3 (qwen3:4b) started 22:47
+  ended by final_answer after 10 turns (24 min): 8 python, 3 forward; edits ['blocks.layers.0.norm1.weight']; test_id acc 0.053, prefix NLL delta +0.002
+[agent] target 0 budget 10 (qwen3:4b) started 23:11
+  ended by python_budget after 12 turns (30 min): 10 python, 7 forward; edits ['blocks.layers.0.self_attn.in_proj_weight']; test_id acc 0.053, prefix NLL delta +0.043
+
+HIDDEN EVALUATION (mean across targets; sd and n in summary.csv)
+                   test_id_acc  test_relative_acc  test_distractor_acc  cf_same_acc  cf_conflict_acc  test_id_margin  prefix_nll_delta  forward_passes  grad_steps  source_grad_steps
+method                                                                                                                                                                               
+unchanged                0.053              0.105                0.053        0.053            0.070          -3.960             0.000             0.0         0.0                0.0
+task_vector              0.842              0.737                0.605        0.772            0.588           2.657             0.511             9.0         0.0             8000.0
+random_equal_norm        0.035              0.211                0.000        0.000            0.000          -4.168             0.499             0.0         0.0                0.0
+fine_tune                0.947              0.789                0.921        0.895            0.895           5.120            -0.029             3.0       400.0                0.0
+agent_b3                 0.053              0.105                0.079        0.053            0.079          -3.957             0.002             3.0         0.0                0.0
+agent_b10                0.053              0.132                0.105        0.105            0.105          -3.938             0.043             7.0         0.0                0.0
+
+Done in 3214s. Results in results/agent_demo_qwen3-4b-think/

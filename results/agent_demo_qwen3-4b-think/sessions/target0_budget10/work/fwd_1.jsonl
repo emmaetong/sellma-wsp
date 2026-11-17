@@ -1,0 +1,102 @@
+{"id": "dev-0", "prefix": "en bil är", "correct": "röd", "incorrect": "rött", "structure": "basic", "margin_original": -1.6882}
+{"id": "dev-1", "prefix": "en bil är mycket", "correct": "röd", "incorrect": "rött", "structure": "adverb", "margin_original": -3.8551}
+{"id": "dev-2", "prefix": "en gammal bil är", "correct": "röd", "incorrect": "rött", "structure": "expanded_np", "margin_original": -3.8562}
+{"id": "dev-3", "prefix": "en bil är", "correct": "gul", "incorrect": "gult", "structure": "basic", "margin_original": -5.4006}
+{"id": "dev-4", "prefix": "en bil är mycket", "correct": "gul", "incorrect": "gult", "structure": "adverb", "margin_original": -6.7279}
+{"id": "dev-5", "prefix": "en gammal bil är", "correct": "gul", "incorrect": "gult", "structure": "expanded_np", "margin_original": -6.3168}
+{"id": "dev-6", "prefix": "en stol är", "correct": "mjuk", "incorrect": "mjukt", "structure": "basic", "margin_original": -4.183}
+{"id": "dev-7", "prefix": "en stol är mycket", "correct": "mjuk", "incorrect": "mjukt", "structure": "adverb", "margin_original": -5.9894}
+{"id": "dev-8", "prefix": "en gammal stol är", "correct": "mjuk", "incorrect": "mjukt", "structure": "expanded_np", "margin_original": -5.43}
+{"id": "dev-9", "prefix": "en hund är", "correct": "dyr", "incorrect": "dyrt", "structure": "basic", "margin_original": -5.0934}
+{"id": "dev-10", "prefix": "en hund är mycket", "correct": "dyr", "incorrect": "dyrt", "structure": "adverb", "margin_original": -3.8389}
+{"id": "dev-11", "prefix": "en gammal hund är", "correct": "dyr", "incorrect": "dyrt", "structure": "expanded_np", "margin_original": -3.7782}
+{"id": "dev-12", "prefix": "en katt är", "correct": "vacker", "incorrect": "vackert", "structure": "basic", "margin_original": -2.0447}
+{"id": "dev-13", "prefix": "en katt är mycket", "correct": "vacker", "incorrect": "vackert", "structure": "adverb", "margin_original": -5.0435}
+{"id": "dev-14", "prefix": "en gammal katt är", "correct": "vacker", "incorrect": "vackert", "structure": "expanded_np", "margin_original": -4.708}
+{"id": "dev-15", "prefix": "en bok är", "correct": "glad", "incorrect": "glatt", "structure": "basic", "margin_original": -1.8651}
+{"id": "dev-16", "prefix": "en bok är mycket", "correct": "glad", "incorrect": "glatt", "structure": "adverb", "margin_original": -1.9725}
+{"id": "dev-17", "prefix": "en gammal bok är", "correct": "glad", "incorrect": "glatt", "structure": "expanded_np", "margin_original": -2.5788}
+{"id": "dev-18", "prefix": "en sko är", "correct": "snabb", "incorrect": "snabbt", "structure": "basic", "margin_original": -1.2115}
+{"id": "dev-19", "prefix": "en sko är mycket", "correct": "snabb", "incorrect": "snabbt", "structure": "adverb", "margin_original": -2.1457}
+{"id": "dev-20", "prefix": "en gammal sko är", "correct": "snabb", "incorrect": "snabbt", "structure": "expanded_np", "margin_original": -3.1099}
+{"id": "dev-21", "prefix": "en sko är", "correct": "varm", "incorrect": "varmt", "structure": "basic", "margin_original": -3.9414}
+{"id": "dev-22", "prefix": "en sko är mycket", "correct": "varm", "incorrect": "varmt", "structure": "adverb", "margin_original": -4.5974}
+{"id": "dev-23", "prefix": "en gammal sko är", "correct": "varm", "incorrect": "varmt", "structure": "expanded_np", "margin_original": -3.5764}
+{"id": "dev-24", "prefix": "en väg är", "correct": "fin", "incorrect": "fint", "structure": "basic", "margin_original": -2.8257}
+{"id": "dev-25", "prefix": "en väg är mycket", "correct": "fin", "incorrect": "fint", "structure": "adverb", "margin_original": -4.6694}
+{"id": "dev-26", "prefix": "en gammal väg är", "correct": "fin", "incorrect": "fint", "structure": "expanded_np", "margin_original": -3.7333}
+{"id": "dev-27", "prefix": "en väg är", "correct": "kall", "incorrect": "kallt", "structure": "basic", "margin_original": -6.4469}
+{"id": "dev-28", "prefix": "en väg är mycket", "correct": "kall", "incorrect": "kallt", "structure": "adverb", "margin_original": -6.9299}
+{"id": "dev-29", "prefix": "en gammal väg är", "correct": "kall", "incorrect": "kallt", "structure": "expanded_np", "margin_original": -7.2308}
+{"id": "dev-30", "prefix": "en fågel är", "correct": "stor", "incorrect": "stort", "structure": "basic", "margin_original": -10.6113}
+{"id": "dev-31", "prefix": "en fågel är mycket", "correct": "stor", "incorrect": "stort", "structure": "adverb", "margin_original": -11.6598}
+{"id": "dev-32", "prefix": "en gammal fågel är", "correct": "stor", "incorrect": "stort", "structure": "expanded_np", "margin_original": -9.564}
+{"id": "dev-33", "prefix": "en fågel är", "correct": "grön", "incorrect": "grönt", "structure": "basic", "margin_original": -4.1432}
+{"id": "dev-34", "prefix": "en fågel är mycket", "correct": "grön", "incorrect": "grönt", "structure": "adverb", "margin_original": -5.2525}
+{"id": "dev-35", "prefix": "en gammal fågel är", "correct": "grön", "incorrect": "grönt", "structure": "expanded_np", "margin_original": -3.7665}
+{"id": "dev-36", "prefix": "en cykel är", "correct": "röd", "incorrect": "rött", "structure": "basic", "margin_original": -1.7881}
+{"id": "dev-37", "prefix": "en cykel är mycket", "correct": "röd", "incorrect": "rött", "structure": "adverb", "margin_original": -4.1339}
+{"id": "dev-38", "prefix": "en gammal cykel är", "correct": "röd", "incorrect": "rött", "structure": "expanded_np", "margin_original": -4.1627}
+{"id": "dev-39", "prefix": "en cykel är", "correct": "gul", "incorrect": "gult", "structure": "basic", "margin_original": -5.5407}
+{"id": "dev-40", "prefix": "en cykel är mycket", "correct": "gul", "incorrect": "gult", "structure": "adverb", "margin_original": -6.9787}
+{"id": "dev-41", "prefix": "en gammal cykel är", "correct": "gul", "incorrect": "gult", "structure": "expanded_np", "margin_original": -6.8118}
+{"id": "dev-42", "prefix": "en lampa är", "correct": "mjuk", "incorrect": "mjukt", "structure": "basic", "margin_original": -4.1901}
+{"id": "dev-43", "prefix": "en lampa är mycket", "correct": "mjuk", "incorrect": "mjukt", "structure": "adverb", "margin_original": -5.9631}
+{"id": "dev-44", "prefix": "en gammal lampa är", "correct": "mjuk", "incorrect": "mjukt", "structure": "expanded_np", "margin_original": -5.7408}
+{"id": "dev-45", "prefix": "en dörr är", "correct": "dyr", "incorrect": "dyrt", "structure": "basic", "margin_original": -5.0366}
+{"id": "dev-46", "prefix": "en dörr är mycket", "correct": "dyr", "incorrect": "dyrt", "structure": "adverb", "margin_original": -4.3149}
+{"id": "dev-47", "prefix": "en gammal dörr är", "correct": "dyr", "incorrect": "dyrt", "structure": "expanded_np", "margin_original": -4.134}
+{"id": "dev-48", "prefix": "en väska är", "correct": "vacker", "incorrect": "vackert", "structure": "basic", "margin_original": -2.0446}
+{"id": "dev-49", "prefix": "en väska är mycket", "correct": "vacker", "incorrect": "vackert", "structure": "adverb", "margin_original": -5.1515}
+{"id": "dev-50", "prefix": "en gammal väska är", "correct": "vacker", "incorrect": "vackert", "structure": "expanded_np", "margin_original": -4.9017}
+{"id": "dev-51", "prefix": "ett hus är", "correct": "rött", "incorrect": "röd", "structure": "basic", "margin_original": -5.8066}
+{"id": "dev-52", "prefix": "ett hus är mycket", "correct": "rött", "incorrect": "röd", "structure": "adverb", "margin_original": -5.7292}
+{"id": "dev-53", "prefix": "ett gammalt hus är", "correct": "rött", "incorrect": "röd", "structure": "expanded_np", "margin_original": -4.248}
+{"id": "dev-54", "prefix": "ett hus är", "correct": "gult", "incorrect": "gul", "structure": "basic", "margin_original": -3.4523}
+{"id": "dev-55", "prefix": "ett hus är mycket", "correct": "gult", "incorrect": "gul", "structure": "adverb", "margin_original": -4.4824}
+{"id": "dev-56", "prefix": "ett gammalt hus är", "correct": "gult", "incorrect": "gul", "structure": "expanded_np", "margin_original": -1.9993}
+{"id": "dev-57", "prefix": "ett bord är", "correct": "mjukt", "incorrect": "mjuk", "structure": "basic", "margin_original": -2.1563}
+{"id": "dev-58", "prefix": "ett bord är mycket", "correct": "mjukt", "incorrect": "mjuk", "structure": "adverb", "margin_original": -2.3698}
+{"id": "dev-59", "prefix": "ett gammalt bord är", "correct": "mjukt", "incorrect": "mjuk", "structure": "expanded_np", "margin_original": -1.7467}
+{"id": "dev-60", "prefix": "ett äpple är", "correct": "dyrt", "incorrect": "dyr", "structure": "basic", "margin_original": -2.0714}
+{"id": "dev-61", "prefix": "ett äpple är mycket", "correct": "dyrt", "incorrect": "dyr", "structure": "adverb", "margin_original": -3.8917}
+{"id": "dev-62", "prefix": "ett gammalt äpple är", "correct": "dyrt", "incorrect": "dyr", "structure": "expanded_np", "margin_original": -3.5309}
+{"id": "dev-63", "prefix": "ett barn är", "correct": "vackert", "incorrect": "vacker", "structure": "basic", "margin_original": -2.256}
+{"id": "dev-64", "prefix": "ett barn är mycket", "correct": "vackert", "incorrect": "vacker", "structure": "adverb", "margin_original": -0.5665}
+{"id": "dev-65", "prefix": "ett gammalt barn är", "correct": "vackert", "incorrect": "vacker", "structure": "expanded_np", "margin_original": 0.031}
+{"id": "dev-66", "prefix": "ett brev är", "correct": "glatt", "incorrect": "glad", "structure": "basic", "margin_original": -3.4261}
+{"id": "dev-67", "prefix": "ett brev är mycket", "correct": "glatt", "incorrect": "glad", "structure": "adverb", "margin_original": -4.4817}
+{"id": "dev-68", "prefix": "ett gammalt brev är", "correct": "glatt", "incorrect": "glad", "structure": "expanded_np", "margin_original": -3.1425}
+{"id": "dev-69", "prefix": "ett tak är", "correct": "snabbt", "incorrect": "snabb", "structure": "basic", "margin_original": -6.3751}
+{"id": "dev-70", "prefix": "ett tak är mycket", "correct": "snabbt", "incorrect": "snabb", "structure": "adverb", "margin_original": -7.6719}
+{"id": "dev-71", "prefix": "ett gammalt tak är", "correct": "snabbt", "incorrect": "snabb", "structure": "expanded_np", "margin_original": -5.6338}
+{"id": "dev-72", "prefix": "ett tak är", "correct": "varmt", "incorrect": "varm", "structure": "basic", "margin_original": -0.9592}
+{"id": "dev-73", "prefix": "ett tak är mycket", "correct": "varmt", "incorrect": "varm", "structure": "adverb", "margin_original": -1.8417}
+{"id": "dev-74", "prefix": "ett gammalt tak är", "correct": "varmt", "incorrect": "varm", "structure": "expanded_np", "margin_original": -1.414}
+{"id": "dev-75", "prefix": "ett träd är", "correct": "fint", "incorrect": "fin", "structure": "basic", "margin_original": -4.7549}
+{"id": "dev-76", "prefix": "ett träd är mycket", "correct": "fint", "incorrect": "fin", "structure": "adverb", "margin_original": -5.0314}
+{"id": "dev-77", "prefix": "ett gammalt träd är", "correct": "fint", "incorrect": "fin", "structure": "expanded_np", "margin_original": -4.7254}
+{"id": "dev-78", "prefix": "ett träd är", "correct": "kallt", "incorrect": "kall", "structure": "basic", "margin_original": -4.719}
+{"id": "dev-79", "prefix": "ett träd är mycket", "correct": "kallt", "incorrect": "kall", "structure": "adverb", "margin_original": -6.5085}
+{"id": "dev-80", "prefix": "ett gammalt träd är", "correct": "kallt", "incorrect": "kall", "structure": "expanded_np", "margin_original": -5.5813}
+{"id": "dev-81", "prefix": "ett glas är", "correct": "stort", "incorrect": "stor", "structure": "basic", "margin_original": -0.3919}
+{"id": "dev-82", "prefix": "ett glas är mycket", "correct": "stort", "incorrect": "stor", "structure": "adverb", "margin_original": -2.4156}
+{"id": "dev-83", "prefix": "ett gammalt glas är", "correct": "stort", "incorrect": "stor", "structure": "expanded_np", "margin_original": -3.0283}
+{"id": "dev-84", "prefix": "ett glas är", "correct": "grönt", "incorrect": "grön", "structure": "basic", "margin_original": 1.3457}
+{"id": "dev-85", "prefix": "ett glas är mycket", "correct": "grönt", "incorrect": "grön", "structure": "adverb", "margin_original": 1.2206}
+{"id": "dev-86", "prefix": "ett gammalt glas är", "correct": "grönt", "incorrect": "grön", "structure": "expanded_np", "margin_original": 1.6212}
+{"id": "dev-87", "prefix": "ett fönster är", "correct": "rött", "incorrect": "röd", "structure": "basic", "margin_original": -5.8116}
+{"id": "dev-88", "prefix": "ett fönster är mycket", "correct": "rött", "incorrect": "röd", "structure": "adverb", "margin_original": -5.6621}
+{"id": "dev-89", "prefix": "ett gammalt fönster är", "correct": "rött", "incorrect": "röd", "structure": "expanded_np", "margin_original": -3.9089}
+{"id": "dev-90", "prefix": "ett fönster är", "correct": "gult", "incorrect": "gul", "structure": "basic", "margin_original": -3.4833}
+{"id": "dev-91", "prefix": "ett fönster är mycket", "correct": "gult", "incorrect": "gul", "structure": "adverb", "margin_original": -4.6115}
+{"id": "dev-92", "prefix": "ett gammalt fönster är", "correct": "gult", "incorrect": "gul", "structure": "expanded_np", "margin_original": -2.7455}
+{"id": "dev-93", "prefix": "ett rum är", "correct": "mjukt", "incorrect": "mjuk", "structure": "basic", "margin_original": -2.1443}
+{"id": "dev-94", "prefix": "ett rum är mycket", "correct": "mjukt", "incorrect": "mjuk", "structure": "adverb", "margin_original": -2.4762}
+{"id": "dev-95", "prefix": "ett gammalt rum är", "correct": "mjukt", "incorrect": "mjuk", "structure": "expanded_np", "margin_original": -1.6315}
+{"id": "dev-96", "prefix": "ett skepp är", "correct": "dyrt", "incorrect": "dyr", "structure": "basic", "margin_original": -2.0371}
+{"id": "dev-97", "prefix": "ett skepp är mycket", "correct": "dyrt", "incorrect": "dyr", "structure": "adverb", "margin_original": -3.8204}
+{"id": "dev-98", "prefix": "ett gammalt skepp är", "correct": "dyrt", "incorrect": "dyr", "structure": "expanded_np", "margin_original": -3.4558}
+{"id": "dev-99", "prefix": "ett tåg är", "correct": "vackert", "incorrect": "vacker", "structure": "basic", "margin_original": -2.2677}
+{"id": "dev-100", "prefix": "ett tåg är mycket", "correct": "vackert", "incorrect": "vacker", "structure": "adverb", "margin_original": -0.7513}
+{"id": "dev-101", "prefix": "ett gammalt tåg är", "correct": "vackert", "incorrect": "vacker", "structure": "expanded_np", "margin_original": -0.3765}

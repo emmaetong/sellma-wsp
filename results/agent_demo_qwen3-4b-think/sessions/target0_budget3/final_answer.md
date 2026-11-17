@@ -1,0 +1,1 @@
+{"edited_tensors": ["blocks.layers.0.norm1.weight"], "components": [{"layer": 0, "part": "norm", "head": null, "role": "gender signal amplification in residual stream"}], "expected_effect": "Slight improvement in adjective agreement margin (mean margin increase of ~0.005)", "confidence": 0.5}

@@ -1,0 +1,72 @@
+{
+  "experiment": {
+    "model": {
+      "batch_size": 32,
+      "learning_rate": 0.003,
+      "embedding_dim": 32,
+      "n_heads": 2,
+      "n_layers": 1,
+      "max_seq_len": 16
+    },
+    "transfer": {
+      "source_pairs": 10,
+      "source_steps": 400,
+      "edit_alphas": [
+        -1.0,
+        -0.5,
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "random_repeats": 12,
+      "seed": 20261116,
+      "base_init_seed": 314159
+    },
+    "extension": {
+      "alpha_grid": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0
+      ]
+    }
+  },
+  "args": {
+    "output_dir": "results/comparators",
+    "targets": 3,
+    "target_steps": 400,
+    "budgets": [
+      10,
+      25,
+      50
+    ],
+    "python_runs": 40,
+    "max_turns": null,
+    "no_agent": true,
+    "backend": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0.6,
+    "llm_seed": 0,
+    "num_ctx": 12288,
+    "max_tokens": 3072,
+    "think": false
+  },
+  "source_seed": "100000 + 101*i",
+  "target_seed": "900000 + 131*j",
+  "finetune_seed": "810000 + 131*j",
+  "sandbox": true,
+  "python": "3.13.18",
+  "torch": "2.15.0"
+}
